@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: '[string: "Parameter 1: "]'</Name>
+    <ErrorText>Type mismatch: '[string: "Parameter 1: "]'</ErrorText>
+    <Description>Type mismatch: '[string: &amp;quot;Parameter 1: &amp;quot;]'&lt;BR/&gt;Line (13): &amp;quot;MyMsgBox.Show &amp;quot;Parameter 1: &amp;quot; + result, &amp;quot;param 1&amp;quot;&amp;quot;. </Description>
+    <StartTime>2023-11-03 04:00:15</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[MyMsgBox.Show "Parameter 1: " + result, "param 1"]]></Scripts>
+          <LineNo><![CDATA[13]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>e90ac4d30d4a46ada6a157c6b6d05bef</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\16abb733-36ad-49cf-b271-18ec481fe793.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2023-11-03 04:00:27</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>dcf732026268488c8f4e00a6e892cbc0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2023-11-03 04:00:05</StartTime>
+    <Duration>22</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="aA" value="1" type="System.Double" />
+      <Parameter name="aB" value="2" type="System.Double" />
+    </InputParameters>
+    <Extension>
+      <IconKey>8b13b6f36551432d920754f88ddfb5e7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2023-11-03 04:00:04</StartTime>
+    <Duration>24</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>b1e51a04343547219147d19aa3da243d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>test4_num params</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2023</ToolVersion>
+    <ToolVersionStringLiteral>2023</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2023-11-03 03:59:55</StartTime>
+    <Duration>34</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="a" value="1" type="System.Double" />
+      <Parameter name="b" value="2" type="System.Double" />
+    </InputParameters>
+    <Extension>
+      <IconKey>1fa6f70ca7f44b48bf324f11bcee17e0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-07:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>Administrator</User>
+      <CpuInfo>Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>15154</TotalMemory>
+      <HostName>WIN2019</HostName>
+      <OSInfo>Windows Server 2019 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2023-11-03 03:59:55</RunStartTime>
+    <Timezone>-07:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2023</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2023</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

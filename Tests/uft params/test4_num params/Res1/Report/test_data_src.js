@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\Administrator\\Desktop\\Shift-23.3.6\\profiles\\01_uft ti params\\uft-export\\DEFAULT_uftTI_params\\ti2\\Tests\\uft params\\test4_num params\\Res1',namePairs:[]}]};
