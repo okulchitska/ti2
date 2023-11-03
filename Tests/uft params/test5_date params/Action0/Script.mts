@@ -1,1 +1,1 @@
-﻿RunAction "Action1", oneIteration, Parameter("StartDateParam")
+﻿RunAction "Action1", oneIteration, Parameter("date")
